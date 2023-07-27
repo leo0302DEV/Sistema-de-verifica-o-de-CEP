@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema de verificação de CEP</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1 class="pagina__titulo">Sistema de consulta de CEP com JavaScript</h1>
+
+        <form class="container">
+            <label for="container__cep">cep:</label>
+            <input type="text" id="container__cep" placeholder="Digite seu CEP">
+            <label for="container__logradouro">logradouro:</label>
+            <input type="text" id="container__logradouro" placeholder="Digite o logradouro" value="">
+            <label for="container__complemento">complemento:</label>
+            <input type="text" id="container__complemento" placeholder="Digite o complemento, se houver">
+            <label for="container__bairro">bairro:</label>
+            <input type="text" id="container__bairro" placeholder="Digite seu bairro" value="">
+            <label for="container__localidade">localidade:</label>
+            <input type="text" id="container__localidade" placeholder="Digite a localidade" value="">
+            <label for="container__uf">UF(Unidade Federativa):</label>
+            <input type="text" id="container__uf" placeholder="Digite o UF" value="">
+            <button id="container__button" type="submit">Consultar CEP automaticamente</button>
+        </form>
+
+        <script src="main.js"></script>
+        <!--cep, logradouro, complemento, bairro, localidade, uf-->
+    </body>
+</html>
